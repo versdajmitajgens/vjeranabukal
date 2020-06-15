@@ -1,0 +1,21 @@
+/* CSS Document */
+p {
+	color: midnightblue;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: pink;
+	padding: 20px;
+}
+h1, h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: midnightblue;
+}	
+body{
+	background-color: pink;
+	
+	
+	
+	
+}
