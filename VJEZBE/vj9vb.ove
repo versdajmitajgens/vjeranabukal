@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <version>190219</version>
+    <url>C:/Users/User/Desktop/9.vj/vj9vb.ove</url>
+    <folders/>
+    <media>
+        <footage id="1" folder="0" name="clip1.avi" url="../clip1.avi" duration="13713700" using_inout="1" in="68" out="330" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="720" height="480" framerate="29.9700299700" infinite="0"/>
+            <audio id="1" channels="2" layout="0" frequency="48000"/>
+        </footage>
+        <footage id="2" folder="0" name="clip2.avi" url="../clip2.avi" duration="13613600" using_inout="1" in="60" out="313" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="720" height="480" framerate="29.9700299700" infinite="0"/>
+            <audio id="1" channels="2" layout="0" frequency="48000"/>
+        </footage>
+        <footage id="3" folder="0" name="Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp3" url="../Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp3" duration="188368980" using_inout="1" in="4000" out="5469" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="1" width="320" height="180" framerate="0.0000000000" infinite="1"/>
+            <audio id="0" channels="2" layout="3" frequency="44100"/>
+        </footage>
+        <footage id="4" folder="0" name="Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp4" url="../Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp4" duration="188338000" using_inout="1" in="3591" out="4383" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="640" height="360" framerate="23.9760239760" infinite="0"/>
+            <audio id="1" channels="2" layout="3" frequency="44100"/>
+        </footage>
+    </media>
+    <sequences>
+        <sequence id="1" folder="0" name="Sequence 01" width="720" height="480" framerate="29.9700000000" afreq="48000" alayout="3" open="1" workarea="1" workareaIn="462" workareaOut="463">
+            <clip id="1" enabled="1" name="clip1.avi" clipin="68" in="0" out="219" track="-1" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="1" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100">
+                            <key value="0" frame="68" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="100" frame="82" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Keying/Chroma Key" enabled="0">
+                    <row>
+                        <field id="mode" value="0"/>
+                    </row>
+                    <row>
+                        <field id="key_color" value="#ff007f"/>
+                    </row>
+                    <row>
+                        <field id="tola" value="50"/>
+                    </row>
+                    <row>
+                        <field id="tolb" value="100"/>
+                    </row>
+                </effect>
+                <effect name="Color/Hue/Saturation/Brightness" enabled="1">
+                    <row>
+                        <field id="hue" value="150.949">
+                            <key value="-171" frame="74" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="-37" frame="161" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="103" frame="263" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="226" frame="322" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="saturation" value="100"/>
+                    </row>
+                    <row>
+                        <field id="brightness" value="100"/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="3" enabled="1" name="clip2.avi" clipin="60" in="246" out="448" track="-2" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="2" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100">
+                            <key value="0" frame="60" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="100" frame="69" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Color/Hue/Saturation/Brightness" enabled="1">
+                    <row>
+                        <field id="hue" value="562">
+                            <key value="254" frame="60" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="387" frame="160" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="622" frame="220" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="487" frame="310" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="saturation" value="100"/>
+                    </row>
+                    <row>
+                        <field id="brightness" value="100"/>
+                    </row>
+                </effect>
+                <effect name="Distort/Shake" enabled="0">
+                    <row>
+                        <field id="intensity" value="25"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="10"/>
+                    </row>
+                    <row>
+                        <field id="frequency" value="5"/>
+                    </row>
+                </effect>
+                <effect name="Distort/Shake" enabled="1">
+                    <row>
+                        <field id="intensity" value="25">
+                            <key value="25" frame="76" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="rotation" value="10"/>
+                    </row>
+                    <row>
+                        <field id="frequency" value="5"/>
+                    </row>
+                </effect>
+                <effect name="Stylize/Chromatic Aberration" enabled="1">
+                    <row>
+                        <field id="red_amount" value="350"/>
+                    </row>
+                    <row>
+                        <field id="green_amount" value="-40"/>
+                    </row>
+                    <row>
+                        <field id="blue_amount" value="-250"/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="4" enabled="1" name="clip2.avi" clipin="262" in="448" out="499" track="-2" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="2" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Color/Hue/Saturation/Brightness" enabled="1">
+                    <row>
+                        <field id="hue" value="487">
+                            <key value="254" frame="60" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="387" frame="160" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="622" frame="220" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="487" frame="310" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="saturation" value="100"/>
+                    </row>
+                    <row>
+                        <field id="brightness" value="100"/>
+                    </row>
+                </effect>
+                <effect name="Distort/Swirl" enabled="1">
+                    <row>
+                        <field id="radius" value="378">
+                            <key value="438" frame="262" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="378" frame="309" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="angle" value="33">
+                            <key value="0" frame="262" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="33" frame="309" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="center_x" value="0"/>
+                        <field id="center_y" value="0"/>
+                    </row>
+                </effect>
+                <effect name="Stylize/Chromatic Aberration" enabled="1">
+                    <row>
+                        <field id="red_amount" value="350">
+                            <key value="350" frame="262" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="green_amount" value="-40">
+                            <key value="-40" frame="262" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="blue_amount" value="-250">
+                            <key value="-250" frame="262" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="5" enabled="1" name="clip1.avi" clipin="287" in="219" out="262" track="-1" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="1" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100">
+                            <key value="0" frame="68" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="100" frame="82" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Keying/Chroma Key" enabled="0">
+                    <row>
+                        <field id="mode" value="0"/>
+                    </row>
+                    <row>
+                        <field id="key_color" value="#ff007f"/>
+                    </row>
+                    <row>
+                        <field id="tola" value="50"/>
+                    </row>
+                    <row>
+                        <field id="tolb" value="100"/>
+                    </row>
+                </effect>
+                <effect name="Color/Hue/Saturation/Brightness" enabled="1">
+                    <row>
+                        <field id="hue" value="226">
+                            <key value="-171" frame="74" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="-37" frame="161" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="103" frame="263" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="226" frame="322" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="saturation" value="100"/>
+                    </row>
+                    <row>
+                        <field id="brightness" value="100"/>
+                    </row>
+                </effect>
+                <effect name="Distort/Shake" enabled="1">
+                    <row>
+                        <field id="intensity" value="14">
+                            <key value="172" frame="287" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="14" frame="312" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="rotation" value="83.4884">
+                            <key value="37" frame="287" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="114" frame="313" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="32" frame="356" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="frequency" value="107">
+                            <key value="107" frame="287" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="107" frame="313" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="7" enabled="1" name="Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp4" clipin="4489" in="499" out="736" track="-2" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="4" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Keying/Chroma Key" enabled="1">
+                    <row>
+                        <field id="mode" value="0"/>
+                    </row>
+                    <row>
+                        <field id="key_color" value="#00ff00"/>
+                    </row>
+                    <row>
+                        <field id="tola" value="5"/>
+                    </row>
+                    <row>
+                        <field id="tolb" value="25"/>
+                    </row>
+                </effect>
+                <effect name="Stylize/Chromatic Aberration" enabled="1">
+                    <row>
+                        <field id="red_amount" value="69.12">
+                            <key value="350" frame="4489" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="540" frame="4616" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="4741" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="green_amount" value="-40"/>
+                    </row>
+                    <row>
+                        <field id="blue_amount" value="-268.574">
+                            <key value="-250" frame="4489" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="-647" frame="4616" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="30" frame="4811" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="14" enabled="1" name="Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp3" clipin="3996" in="0" out="1468" track="0" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="3" stream="0">
+                <linked/>
+                <effect name="/Volume" enabled="1">
+                    <row>
+                        <field id="volume" value="1"/>
+                    </row>
+                </effect>
+                <effect name="/Pan" enabled="1">
+                    <row>
+                        <field id="pan" value="0"/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="16" enabled="1" name="Lady Gaga, Ariana Grande - Rain On Me (Official Music Video).mp4" clipin="4726" in="736" out="1489" track="-2" r="128" g="128" b="192" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="4" stream="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="0">
+                            <key value="50" frame="5347" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="20" frame="5359" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="5369" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Keying/Chroma Key" enabled="1">
+                    <row>
+                        <field id="mode" value="0"/>
+                    </row>
+                    <row>
+                        <field id="key_color" value="#00ff00"/>
+                    </row>
+                    <row>
+                        <field id="tola" value="5"/>
+                    </row>
+                    <row>
+                        <field id="tolb" value="25"/>
+                    </row>
+                </effect>
+                <effect name="Stylize/Chromatic Aberration" enabled="1">
+                    <row>
+                        <field id="red_amount" value="0">
+                            <key value="350" frame="4489" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="540" frame="4616" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="4741" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="green_amount" value="-40"/>
+                    </row>
+                    <row>
+                        <field id="blue_amount" value="30">
+                            <key value="-250" frame="4489" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="-647" frame="4616" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="30" frame="4811" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                </effect>
+                <effect name="Distort/Tile" enabled="1">
+                    <row>
+                        <field id="scale" value="102">
+                            <key value="6" frame="4726" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="39" frame="4867" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="102" frame="5106" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="centerx" value="0">
+                            <key value="50" frame="4935" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="5106" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                        <field id="centery" value="0">
+                            <key value="0" frame="4935" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="mirrorx" value="0">
+                            <key value="1" frame="4866" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="5004" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="mirrory" value="0">
+                            <key value="1" frame="4935" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="0" frame="4991" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="17" enabled="1" name="Title" clipin="-39" in="1381" out="1466" track="-3" r="192" g="192" b="64" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="360"/>
+                        <field id="posy" value="240"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Render/Rich Text" enabled="1">
+                    <row>
+                        <field id="text" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Pristina'; font-size:36pt; font-weight:504; color:#ff1de9;&quot;&gt;stream Chromatica&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+                    </row>
+                    <row>
+                        <field id="padding" value="0"/>
+                    </row>
+                    <row>
+                        <field id="posx" value="-55"/>
+                        <field id="posy" value="0"/>
+                    </row>
+                    <row>
+                        <field id="valign" value="132">
+                            <key value="132" frame="3" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="autoscroll" value="0">
+                            <key value="0" frame="3" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="shadow" value="0"/>
+                    </row>
+                    <row>
+                        <field id="shadowcolor" value="#9a0a63"/>
+                    </row>
+                    <row>
+                        <field id="shadowangle" value="2"/>
+                    </row>
+                    <row>
+                        <field id="shadowdistance" value="48"/>
+                    </row>
+                    <row>
+                        <field id="shadowsoftness" value="64"/>
+                    </row>
+                    <row>
+                        <field id="shadowopacity" value="65"/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="18" enabled="1" name="Title" clipin="-11" in="1409" out="1466" track="-4" r="192" g="192" b="64" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0">
+                <linked/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="325"/>
+                        <field id="posy" value="243"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="100"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="-25"/>
+                        <field id="anchory" value="1"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+                <effect name="Render/Rich Text" enabled="1">
+                    <row>
+                        <field id="text" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Vani'; font-size:25pt; font-weight:96; color:#815f7b;&quot;&gt;Vjerana Bukal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+                    </row>
+                    <row>
+                        <field id="padding" value="0"/>
+                    </row>
+                    <row>
+                        <field id="posx" value="238"/>
+                        <field id="posy" value="0"/>
+                    </row>
+                    <row>
+                        <field id="valign" value="64">
+                            <key value="132" frame="0" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="64" frame="25" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="autoscroll" value="3">
+                            <key value="2" frame="0" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                            <key value="3" frame="25" type="0" prehx="-40" prehy="0" posthx="40" posthy="0"/>
+                        </field>
+                    </row>
+                    <row>
+                        <field id="shadow" value="0"/>
+                    </row>
+                    <row>
+                        <field id="shadowcolor" value="#000000"/>
+                    </row>
+                    <row>
+                        <field id="shadowangle" value="0"/>
+                    </row>
+                    <row>
+                        <field id="shadowdistance" value="0"/>
+                    </row>
+                    <row>
+                        <field id="shadowsoftness" value="0"/>
+                    </row>
+                    <row>
+                        <field id="shadowopacity" value="0"/>
+                    </row>
+                </effect>
+            </clip>
+        </sequence>
+    </sequences>
+</project>
